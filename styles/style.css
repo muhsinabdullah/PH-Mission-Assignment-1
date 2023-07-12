@@ -1,0 +1,178 @@
+/* Common shared styles */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.button-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.text-primary{
+    color: #E55473;
+}
+.text-secondary{
+    color: #FFF;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.section-description {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* header related styles */
+.header {
+    background: #e554731a;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .main-flower {
+    width: 500px;
+
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* about section styles */
+.about {
+    padding: 80px;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    border-radius: 300px 300px 0px 0px;
+    background: #0597a026;
+    margin: 40px;
+    margin-bottom: 0;
+}
+
+.info-1{
+    margin: 40px;
+    margin-bottom: 0;
+    margin-top: 85px;
+}
+.info-pic{
+    margin: 20px;
+    margin-top: 90px;
+}
+.info-content{
+    margin: 40px;
+    margin-bottom: 0px;
+}
+.info-heading{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* optional section related styles */
+.optional{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: #2727270d;
+    margin: 50px;
+    padding: 40px 20px;
+}
+.op-pic{
+    text-align: center;
+}
+/* sale section related styles */
+.sale{
+    background: #e554730d;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px;
+    }
+.s-1{
+    align-items: center;
+    margin: 60px;
+    padding: 10px;
+}
+.s-1-btn{
+    margin-left: 320px;
+    padding: 10px; 
+}
+.s-1-pic{
+    margin-right: 150px;
+}
+/* instagram section related styles */
+.instagram{
+    gap: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+.insta{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+
+}
+
+/* deal section related styles */
+.deal{
+    align-items: center;
+    background-image: url(../images/Rectangle\ 9.png);
+    margin: 100px;
+    padding: 100px 50px;
+    border-radius: 8px;
+}
+.contact input[type="email"]{
+    margin-bottom: 25px;
+    margin-left: 300px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 40%;
+}
+.contact button{
+    display: inline;
+}
+/* footer related styles */
+footer{
+    background: #111010;
+    padding: 100px;
+    margin: 0;
+}
+
+footer > p{
+    color: white;
+}
+
+
