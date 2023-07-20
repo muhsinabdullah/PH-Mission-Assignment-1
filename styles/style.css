@@ -1,0 +1,416 @@
+/* Work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap');
+
+/* shared styles */
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.section-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FF42A5;
+}
+
+.section-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.section-description {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.btn-primary {
+    border-radius: 48px;
+    background: #FF42A5;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 0;
+}
+
+/* header styles */
+header {
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+nav button {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+}
+
+nav button img {
+    width: 10%;
+}
+
+/* banner styles */
+.banner {
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-content h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.banner-content h1 {
+    font-size: 4rem;
+    margin: 5px;
+    text-align: left;
+}
+
+.banner-btn {
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 0;
+    margin-left: 5px;
+}
+
+.banner img {
+    margin-left: 70px;
+}
+
+/* main styles */
+main {
+    max-width: 1920px;
+    padding: 55px 240px;
+}
+
+/* gamer section */
+.gamer {
+    display: flex;
+}
+
+.gamer img {
+    width: 60%;
+    height: 60%;
+    margin-right: 20px;
+}
+
+.gamer-content {
+    text-align: right;
+}
+
+.gamer-content h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.gamer-content h4 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.gamer-content p {
+    font-size: 1.1rem;
+}
+
+/* online games section styles */
+.online-games-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.online-games-text h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.online-games-text p {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.online-games-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-container {
+    flex: 0 0 calc(25% - 15px);
+    text-align: center;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.img-container p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px;
+}
+/* download-section styles */
+.download-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 20px;
+}
+.download-section-text{
+    padding: 30px 30px;
+    margin-top: 25px;
+    text-align: left;
+}
+.download-section-text p{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.download-section-img{
+    height: 90%;
+    margin-left: 90px;
+}
+.badge-img{
+    width: 318.5px;
+    position: relative;
+    right: 100px;
+    bottom: 300px;
+}
+
+/* button section styles */
+
+.button-section button {
+    border-radius: 50px;
+    background: #FFF;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 0;
+    margin-right: 10px;
+}
+
+.button-section button:hover {
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+}
+
+.button-section button img {
+    margin-right: 5px;
+}
+
+.button-section button:nth-child(6) {
+    margin-left: 50px;
+}
+footer{
+    background: #0B0223;
+    color: #FFF;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.footer-heading{
+    padding-top: 30px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.footer-heading h3{
+    margin: 0;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.footer-menu p{
+    color: #FFF;
+    font-weight: 400;
+}
+.footer-img{
+    display: inline-flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 50px;
+}
+.footer-img img{
+    background-color: #FFF;
+    border-radius: 10px;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-text p{
+    font-weight: 400;
+}
+.footer-copy{
+    padding-bottom: 50px;
+}
+.footer-copy{
+    font-weight: 300;
+}
+
+
+/* responsive styles */
+/* mobile devices */
+@media screen and (max-width:576px) {
+    header,
+    main {
+        padding: 20px;
+    }
+
+
+    nav,
+    .gamer,
+    .online-games-image,
+    .download-section {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        width: 100%;
+        align-items: center;
+    }
+
+    .banner img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .gamer img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .gamer-content {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .online-games-text {
+        margin-bottom: 10px;
+    }
+
+    .img-container {
+        flex-basis: calc(50% - 25px);
+    }
+    .download-section-img{
+        width: 90%;
+        margin-left: 0;
+    }
+    .badge-img{
+        position: static;
+        max-width: 300px;
+    }
+    .button-section button:nth-child(6){
+        margin-left: 0;
+    }
+    .button-section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);  
+    }
+    footer{
+        width: 100%;
+        padding: 45px;
+    }
+    .footer-menu, .footer-img{
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+    }
+    .footer-text{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+/* medium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header {
+        padding: 50px;
+    }
+
+    nav,
+    .gamer,
+    .download-section {
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    main {
+        padding: 50px;
+    }
+    .gamer {
+        align-items: center;
+    }
+
+    .gamer img {
+        width: 100%;
+    }
+
+    .gamer-content {
+        text-align: center;
+        padding: 30px;
+    }
+    .button-section button:nth-child(6){
+        margin-left: 0;
+    }
+    .button-section{
+        padding: 0 40px;
+    }
+}
